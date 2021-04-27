@@ -20,8 +20,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Text("Hello World is the first program to be made in any programming language like c,c++,java and python etc flutter is a ui development kit developed by google and it uses dart language",
-      maxLines:1,
-      overflow:TextOverflow.ellipsis,
+      //maxLines:1,
+      //overflow:TextOverflow.ellipsis,
+      //textAlign:TextAlign.right,
+      textDirection:TextDirection.ltr,
+
           style: TextStyle(
               color: Colors.blue,
               fontStyle:FontStyle.italic,
